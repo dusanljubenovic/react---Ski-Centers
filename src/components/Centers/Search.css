@@ -1,0 +1,83 @@
+.search {
+  width: 480px;
+  margin: 20px auto;
+}
+
+.search-input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  padding:20px;
+  flex:1;
+}
+
+.clear-button{
+  padding:20px;
+  cursor: pointer;
+  color:#fff;
+  background-color: #19193b;
+  width:52px;
+}
+.clear-button:hover{
+  color: #b36b00;
+}
+
+.search-input input {
+  font: inherit;
+    border: none;
+    border-radius: 5px;
+    padding: 0px;
+    width: 100%;
+}
+
+.search-input input:focus {
+  outline: none;
+  border-color: #ff2058;
+}
+
+@media (min-width: 768px) {
+  .search-input {
+    flex-direction: row;
+  }
+}
+
+@media (max-width: 540px) {
+  .search {
+  width: 100%;
+  margin:auto;
+  padding: 20px 30px;
+  }
+
+}
+
+
+.search .ski-list ul{
+  background-color: #19193b;
+}
+
+.search .ski-list ul li span{
+  color:#fff;
+}
+
+.search .ski-list ul li{
+  border-radius:0px;
+  border-bottom:1px solid #3b3b58;
+}
+
+.search .ski-list ul li:hover{
+  background-color: #19193b;
+  
+}
+
+.search .ski-list ul li:hover span{
+  color: #b36b00;
+}
+
+.search .ski-list ul li.activ_item{
+  background-color:transparent;
+}
+
+.search .ski-list ul li.activ_item span{
+  color: #b36b00;
+}

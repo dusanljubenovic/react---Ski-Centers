@@ -1,0 +1,3 @@
+export { 
+    initLoadSkiCenters
+} from './skiCenter';

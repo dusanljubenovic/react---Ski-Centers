@@ -1,0 +1,90 @@
+.ski-list {
+  width: 480px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.ski-list h2 {
+  border-bottom: 3px solid #ccc;
+  padding-bottom: 10px;
+}
+
+.ski-list ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display:flex;
+  flex-wrap:wrap;
+}
+
+.ski-list li{
+  width:50%;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  align-items: center;
+  padding:10px;
+  border-radius:5px;
+}
+
+.ski-list li span{
+  font-size:14px;
+}
+
+
+.ski-list li span:nth-child(1){
+ flex:1;
+}
+
+.ski-list li span:nth-child(2){
+ width:37px;
+ text-align: right;
+}
+
+.ski-list li.activ_item,
+.ski-list li:hover{
+  background-color:#f2f2f2;
+}
+
+.ski-list li.activ_item span,
+.ski-list li:hover span{
+  color:#b36b00;
+}
+
+
+.search .ski-list ul li{
+  width:100%;
+}
+
+.search{
+  position: relative;
+}
+
+
+@media (max-width: 540px) {
+ .ski-list{
+  width:100%;
+   padding:0px 30px;
+   margin-bottom:50px;
+ }
+
+ .search .ski-list{
+   width:100%;
+   padding:0px 0px;
+   margin-bottom:0px;
+ }
+
+ .ski-list h2{
+   margin-top:10px;
+ }
+
+}
+
+
+@media (max-width: 480px) {
+
+.ski-list li{
+  width:100%
+}
+
+}

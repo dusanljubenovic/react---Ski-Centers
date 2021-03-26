@@ -1,0 +1,115 @@
+.place_holder{
+    display:flex;
+    border: 2px solid #ccc;
+    padding:20px;
+    margin-top:20px;
+    flex-direction:column;
+}
+
+.place_image{
+    line-height:0px;
+}
+
+.temperature_holder{
+   display:flex;
+   align-items: flex-end;
+}
+
+.temperature_holder strong{
+    font-size:14px;
+}
+
+.temperature_holder span{
+    display: flex;
+    color: #fff;
+    background-color: #b36b00;
+    width: 35px;
+    height: 25px;
+    align-items: center;
+    font-size: 13px;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+
+.information_holder{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 20px;
+}
+
+.position_holder{
+    display:flex;
+    align-items: flex-end;
+
+}
+.position_holder>strong{
+    font-size:14px;
+}
+
+.position_holder span{
+    font-size:14px;
+}
+
+.position_holder div{
+    display: flex;
+    flex-direction: column;
+    margin-left:10px;
+    background-color: #f2f2f2;
+    color: #b36b00;
+    padding: 5px;
+}
+
+.position_holder div span strong{
+    color:#19193b;
+    margin-right:5px;
+}
+
+.place_holder_top{
+    display:flex;
+}
+
+.name_and_desc_holder{
+    padding-left:20px;
+}
+
+.name_holder{
+    color:#19193b;
+    font-size:20px;
+    line-height: 26px;
+    margin-bottom:10px;
+}
+
+.description_holder{
+    color:#818181;
+    font-size:14px;
+    line-height: 18px;
+}
+
+@media (max-width: 480px) {
+
+    .place_holder_top {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .name_and_desc_holder {
+        padding-left: 0px;
+        padding-top: 20px;
+    }
+
+    .place_image {
+        text-align: center;
+    }
+
+    .information_holder {
+        flex-direction: column;
+    }
+
+    .position_holder {
+        padding-top: 20px;
+    }
+
+
+}
