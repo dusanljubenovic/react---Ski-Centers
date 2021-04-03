@@ -9,7 +9,7 @@ Showing a list of ski resorts and search bars, where you can select and see data
 You can see that live https://react-skicenter.web.app
 
 <h2>How to run localy:</h2>
-Download or clone master branch. In the project directory run:
+Download or clone main branch. In the project directory run:
 
 <code>npm install</code><br>
 <code>npm start</code>
